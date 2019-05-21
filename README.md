@@ -1,6 +1,11 @@
 # UrlClassifier
 C# Url Classifier
 
+# TODO
+
+* Clean up the code.
+* Implement laplace mixing.
+
 ## What
 
 Url Classifier I built while I was contracting with a b2b leads scraper/seller. The classifier was trained using a given training set of the form (URL, HAS_VALUE), i.e. if one wanted to train a classifier to determine if a given url was likely to contain addresses on the page, the training set would be something like ("www.example.com/locations", 1) and so forth.
